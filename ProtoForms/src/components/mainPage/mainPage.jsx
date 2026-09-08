@@ -12,7 +12,9 @@ function mainPage() {
 
   return (
     <>
-      Hello World
+      <div className='mainPage'>
+        Hello World
+      </div>
     </>
   )
 }
