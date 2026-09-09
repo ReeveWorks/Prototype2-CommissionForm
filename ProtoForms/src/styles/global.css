@@ -8,22 +8,22 @@
   --text-small: 15px;
 }
 
+/* Morning Mode */
+html.light {
+  --color-primary: rgba(56, 26, 1);
+  --color-secondary: rgba(255, 239, 204);
+  --color-bg-main: rgb(255, 239, 204);
+  --color-bg-secondary: rgb(73, 34, 2);
+  --color-accent: rgb(255, 102, 0);
+}
 
-/* Dark Mode */
+/* Night Mode */
 :root,
 html.dark {
-  --color-txt-main: rgb(255, 255, 255);
-  --color-txt-secondary: rgba(50, 37, 97);
+  --color-primary: rgb(255, 255, 255);
+  --color-secondary: rgba(50, 37, 97);
   --color-bg-main: rgb(32, 35, 49);
   --color-bg-secondary: rgb(221, 214, 255);
   --color-accent: rgb(141, 92, 255);
 }
 
-/* Light Mode */
-html.light {
-  --color-txt-main: rgba(56, 26, 1);
-  --color-txt-secondary: rgba(255, 239, 204);
-  --color-bg-main: rgb(255, 239, 204);
-  --color-bg-secondary: rgb(73, 34, 2);
-  --color-accent: rgb(255, 102, 0);
-}
