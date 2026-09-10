@@ -1,5 +1,6 @@
 //Pages
 import MainPage from './components/mainPage/mainPage.jsx'
+import Header from './components/header/header.css.jsx'
 
 //Styles
 import './styles/global.css'
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div className="indexApp">
+      <Header />
       <MainPage />
     </div>
   )
