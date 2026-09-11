@@ -13,7 +13,7 @@ function Header() {
   return (
     <>
       <div className='header'>
-        Hello World
+        
       </div>
     </>
   )

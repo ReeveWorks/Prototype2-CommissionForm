@@ -1,6 +1,6 @@
 //Pages
 import MainPage from './components/mainPage/mainPage.jsx'
-import Header from './components/header/header.css.jsx'
+import Header from './components/header/header.jsx'
 
 //Styles
 import './styles/global.css'

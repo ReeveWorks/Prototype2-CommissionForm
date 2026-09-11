@@ -1,3 +1,5 @@
 .mainPage {
-    background-color: var(--color-bg-main);
+    background-color: red;
+    height: 100%;
+    width: 100%;
 }
