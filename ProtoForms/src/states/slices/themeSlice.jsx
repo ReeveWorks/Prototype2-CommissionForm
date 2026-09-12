@@ -5,9 +5,10 @@ import lighticon from '../../assets/light_mode.svg';
 const initialState = {
     currentTheme: {
         themeSet: "morning",
+        icon: "sample"
     },
 
-    themes: [
+    themesList: [
         "night",
         "morning",
         "dawn"
@@ -18,12 +19,12 @@ const darkmodeSlice = createSlice({
     name: 'darkmode',
     initialState,
     reducers: {
-        togglemode: (state, action) => {
+        toggleTheme: (state, action) => {
             const theme = action.payload;
             const root = document.documentElement;
 
             // Remove all existing theme classes from the root element
-            for (const theme of state.themes) {
+            for (const theme of state.themesList) {
                 if (theme !== 'night') {
                     root.classList.remove(theme);
                 }
@@ -43,11 +44,12 @@ const darkmodeSlice = createSlice({
 
             // Update the currentTheme in the state
             state.currentTheme = {
-                themeSet: theme
+                themeSet: theme,
+                icon: "sample"
             }
         }
     }
 });
 
-export const { togglemode } = darkmodeSlice.actions;
+export const { toggleTheme } = darkmodeSlice.actions;
 export default darkmodeSlice.reducer;
