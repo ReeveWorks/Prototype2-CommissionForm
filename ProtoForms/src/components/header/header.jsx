@@ -1,9 +1,7 @@
-//styles
+/* styles */
 import './header.css'
 
-//components
-
-//functional component
+/* functional component */
 import { useState, } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
