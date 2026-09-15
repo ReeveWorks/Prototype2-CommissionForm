@@ -13,15 +13,10 @@ import { toggleTheme } from '../../states/slices/themeSlice'
 function Header() {
   const [count, setCount] = useState(0)
 
-  const theme = useSelector((state) => state.theme.currentTheme);
-  const themelist = useSelector((state) => state.theme.themesList);
+  // const theme = useSelector((state) => state.theme.currentTheme);
+  // const themelist = useSelector((state) => state.theme.themesList);
   
-  const dispatch = useDispatch();
-
-  function toggleTheme(mode) {
-    dispatch(toggleTheme(!theme.themeSet === 'night'));
-  }
-
+  // const dispatch = useDispatch();
 
   return (
     <>

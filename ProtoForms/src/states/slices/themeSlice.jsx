@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
-import darkicon from '../../assets/dark_mode.svg';
-import lighticon from '../../assets/light_mode.svg';
+// import darkicon from '../../assets/dark_mode.svg';
+// import lighticon from '../../assets/light_mode.svg';
 
 const initialState = {
     currentTheme: {
@@ -15,8 +15,8 @@ const initialState = {
     ]
 };
 
-const darkmodeSlice = createSlice({
-    name: 'darkmode',
+const themeSlice = createSlice({
+    name: 'theme',
     initialState,
     reducers: {
         toggleTheme: (state, action) => {
@@ -51,5 +51,5 @@ const darkmodeSlice = createSlice({
     }
 });
 
-export const { toggleTheme } = darkmodeSlice.actions;
-export default darkmodeSlice.reducer;
+export const { toggleTheme } = themeSlice.actions;
+export default themeSlice.reducer;
