@@ -13,7 +13,132 @@ function mainPage() {
   return (
     <>
       <div className='mainPage'>
-        
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
+        <br></br>
+        <p>dummy text</p>
+        <br></br>
       </div>
     </>
   )

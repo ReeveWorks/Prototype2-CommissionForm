@@ -15,15 +15,13 @@ function Header() {
 
   // const theme = useSelector((state) => state.theme.currentTheme);
   // const themelist = useSelector((state) => state.theme.themesList);
-  
+
   // const dispatch = useDispatch();
 
   return (
-    <>
-      <div className='header'>
-        
-      </div>
-    </>
+    <div className='header'>
+      Header
+    </div>
   )
 }
 
