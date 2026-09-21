@@ -1,18 +1,29 @@
 /* styles */
 import './footer.css'
 
-function Footer() {
-  let value = window.scrollY;
+/* functional component */
+import { useEffect, useState } from 'react'
 
-  const handleScroll = () => {
-    value = window.scrollY;
-    console.log(value);
-  }
+function Footer() {
+  const [isAtTop, setIsAtTop] = useState(true)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsAtTop(window.scrollY === 0)
+    }
+
+    handleScroll()
+    window.addEventListener('scroll', handleScroll, { passive: true })
+
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   return (
-    <div className='footer'>
+    <div
+      id="thisFooter"
+      className={`footer ${isAtTop ? 'footer--visible' : 'footer--hidden'}`}
+    >
       Footer
-      <button onClick={handleScroll}>Check Value</button>
     </div>
   )
 }
