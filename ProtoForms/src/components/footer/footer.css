@@ -18,5 +18,5 @@
 }
 
 .footer--hidden {
-    transform: translateY(100%);
+    position: static;
 }
