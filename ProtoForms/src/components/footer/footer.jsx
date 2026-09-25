@@ -19,14 +19,14 @@ function Footer() {
   }, [])
 
   return (
-    <div>
+    <>
       <div className={`footer ${isAtTop ? 'footer--visible' : 'footer--hidden'}`}>
         Footer
       </div>
-      <div className={`footer ${isAtTop ? 'footer-v-bottom' : 'footer-h-bottom'}`}>
+      <div className={`footer footer--bottom`}>
         Footer
       </div>
-    </div>
+    </>
   )
 }
 

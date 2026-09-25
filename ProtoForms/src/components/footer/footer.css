@@ -12,7 +12,7 @@
     bottom: 0;
     
     transition-property: transform;
-    transition-duration: 0.3s;
+    transition-duration: 0.25s;
     transition-timing-function: linear;
 }
 
@@ -22,17 +22,8 @@
 
 .footer--hidden {
     transform: translateY(100%);
-    /* margin-top: -35px;
-    position: static; */
 }
 
-.footer-v-bottom {
-    background-color: rgb(214, 104, 104);
-    display: none;
-}
-
-.footer-h-bottom {
-    background-color: rgb(214, 104, 104);
-    display: flex;
+.footer--bottom {
     position: static;
 }
