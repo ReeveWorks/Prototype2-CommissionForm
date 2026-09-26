@@ -18,13 +18,22 @@ function Footer() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  function footerContent() {
+    return (
+      <div>
+        Footer Test
+      </div>
+    );
+  }
+
   return (
     <>
       <div className={`footer ${isAtTop ? 'footer--visible' : 'footer--hidden'}`}>
-        Footer
+        {footerContent()}
       </div>
+
       <div className={`footer footer--bottom`}>
-        Footer
+        {footerContent()}
       </div>
     </>
   )
