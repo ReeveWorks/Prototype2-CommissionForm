@@ -1,5 +1,5 @@
 //Pages
-import MainPage from './components/mainPage/mainPage.jsx'
+import Body from './components/body/body.jsx'
 import Header from './components/header/header.jsx'
 import Footer from './components/footer/footer.jsx'
 
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="indexApp">
       <Header />
-      <MainPage />
+      <Body />
       <Footer/>
     </div>
   )

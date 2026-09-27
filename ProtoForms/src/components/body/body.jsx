@@ -1,5 +1,5 @@
 //styles
-import './mainPage.css'
+import './body.css'
 
 //components
 
@@ -7,12 +7,12 @@ import './mainPage.css'
 import { useState } from 'react'
 
 
-function mainPage() {
+function body() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='mainPage'>
+      <div className='body'>
         <br></br>
         <p>dummy text 1</p>
         <br></br>
@@ -108,4 +108,4 @@ function mainPage() {
   )
 }
 
-export default mainPage
+export default body

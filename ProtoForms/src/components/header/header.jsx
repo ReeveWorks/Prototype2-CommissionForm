@@ -22,7 +22,6 @@ function Header() {
     <div className='header'>
       Header
       test
-      test
     </div>
   )
 }

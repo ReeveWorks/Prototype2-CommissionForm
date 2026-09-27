@@ -9,7 +9,7 @@
 }
 
 /* Morning Mode */
-html.light {
+:root, html.light {
   --color-primary: rgba(56, 26, 1);
   --color-secondary: rgba(255, 239, 204);
   --color-bg-main: rgb(255, 239, 204);
@@ -18,7 +18,6 @@ html.light {
 }
 
 /* Night Mode */
-:root,
 html.dark {
   --color-primary: rgb(255, 255, 255);
   --color-secondary: rgba(50, 37, 97);
