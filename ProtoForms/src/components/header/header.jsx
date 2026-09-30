@@ -21,8 +21,9 @@ function Header() {
   return (
     <div className='header'>
       <div className='header--a'></div>
-      <div className='header--b'> Icon </div>
-      <div className='header--c'> Header </div>
+      <div className='header--b'></div>
+      <div className='header--c'></div>
+      
     </div>
   )
 }
