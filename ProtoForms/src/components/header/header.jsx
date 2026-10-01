@@ -11,12 +11,9 @@ import { toggleTheme } from '../../states/slices/themeSlice'
 
 
 function Header() {
-  const [count, setCount] = useState(0)
+  const dispatch = useDispatch();
 
-  // const theme = useSelector((state) => state.theme.currentTheme);
-  // const themelist = useSelector((state) => state.theme.themesList);
-
-  // const dispatch = useDispatch();
+  const theme = useSelector((state) => state.theme.currentTheme);
 
   return (
     <div className='header'>

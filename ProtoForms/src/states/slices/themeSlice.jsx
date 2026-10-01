@@ -1,18 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
-// import darkicon from '../../assets/dark_mode.svg';
-// import lighticon from '../../assets/light_mode.svg';
+import nightIcon from '../../assets/dark_mode.svg';
+import morningIcon from '../../assets/light_mode.svg';
 
 const initialState = {
-    currentTheme: {
+    theme: {
         themeSet: "morning",
-        icon: "sample"
+        icon: morningIcon
     },
-
-    themesList: [
-        "night",
-        "morning",
-        "dawn"
-    ]
 };
 
 const themeSlice = createSlice({
@@ -20,7 +14,6 @@ const themeSlice = createSlice({
     initialState,
     reducers: {
         toggleTheme: (state, action) => {
-            const theme = action.payload;
             const root = document.documentElement;
 
             // Remove all existing theme classes from the root element
@@ -30,22 +23,24 @@ const themeSlice = createSlice({
                 }
             }
 
-            // Add the new theme class to the root element
-            if (theme === 'night') {
-                root.classList.add('dark');
+            // Night > Morning > Dawn
+            if (state.theme.themeSet === 'night') {
+                root.classList.add('morning');
+                state.theme = {
+                    themeSet: 'morning',
+                    icon: morningIcon
+                }
             }
-            else if (theme === 'morning') {
-                root.classList.add('light');
+            else if (state.theme.themeSet === 'morning') {
+                root.classList.add('night');
+                state.theme = {
+                    themeSet: 'night',
+                    icon: nightIcon
+                }
             }
             else {
-                console.error('Invalid theme value:', theme);
+                console.error('Invalid theme value:', state.theme.themeSet);
                 return;
-            }
-
-            // Update the currentTheme in the state
-            state.currentTheme = {
-                themeSet: theme,
-                icon: "sample"
             }
         }
     }
