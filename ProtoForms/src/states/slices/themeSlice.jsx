@@ -16,12 +16,7 @@ const themeSlice = createSlice({
         toggleTheme: (state, action) => {
             const root = document.documentElement;
 
-            // Remove all existing theme classes from the root element
-            for (const theme of state.themesList) {
-                if (theme !== 'night') {
-                    root.classList.remove(theme);
-                }
-            }
+            root.classList.remove(state.theme.themeSet);
 
             // Night > Morning > Dawn
             if (state.theme.themeSet === 'night') {
