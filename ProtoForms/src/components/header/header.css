@@ -43,7 +43,23 @@
     color: var(--color-primary);
 }
 
-.header--icons{
+.header--div-icon {
+    display: grid;
+    place-items: center;
+
     position: absolute;
     z-index: 1000;
+
+    width: 65px;
+    height: 65px;
+    margin-left: 5px;
+    margin-top: 0px;
+    border-radius: 100%;
+
+    background-color: transparent;
+}
+
+.header--icons {
+    z-index: 1000;
+    width: 40px;
 }
