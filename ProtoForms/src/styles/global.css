@@ -26,3 +26,12 @@ html.night {
   --color-accent: rgb(141, 92, 255);
 }
 
+/* Global Styles */
+.txt-unselectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
