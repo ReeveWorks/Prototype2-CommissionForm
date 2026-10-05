@@ -16,6 +16,8 @@ function App() {
   return (
     <div className="indexApp">
       <Header />
+      <br></br>
+      <br></br>
       <Body />
       <Footer/>
     </div>

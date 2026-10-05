@@ -24,9 +24,8 @@ function Header() {
       <div className='header--a'></div>
       <div className='header--b'></div>
       <div className='header--c'></div>
-      <div className='header--div-icon'>
-        <img className='header--icons txt-unselectable' src={theme.icon} alt="Theme Icon" onClick={() => dispatch(toggleTheme())} />
-        
+      <div className='header--div-icon header--icons-hover'>
+        <img className=' txt-unselectable' src={theme.icon} alt="Theme Icon" onClick={() => dispatch(toggleTheme())} />
       </div>
     </div>
   )
