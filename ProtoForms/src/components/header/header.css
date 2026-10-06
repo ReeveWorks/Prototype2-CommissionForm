@@ -21,20 +21,6 @@
 
 .header--b {
     position: absolute;
-    z-index: 900;
-
-    width: 65px;
-    height: 65px;
-    margin-left: 5px;
-    margin-top: 0px;
-    border-radius: 100%;
-
-    background-color: var(--color-bg-main);
-    border: 3.5px solid var(--color-primary);
-}
-
-.header--c {
-    position: absolute;
     z-index: 1000;
 
     width: 100%;
@@ -43,28 +29,69 @@
     color: var(--color-primary);
 }
 
-.header--div-icon {
+
+/* Buttons Container - Bottom */
+.header--container-buttons-bottom {
+    position: absolute;
+    z-index: 900;
+
+    display: flex;
+    gap: 10px;
+
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+.header--container-buttons-bottom .header--div-icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+
+    background-color: var(--color-bg-main);
+    border: 3.5px solid var(--color-primary);
+}
+
+/* Buttons Container - Bottom */
+
+
+/* Buttons Container - Top */
+.header--container-buttons-top {
+    position: absolute;
+    z-index: 1000;
+    
+    display: flex;
+    gap: 10px;
+
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+.header--container-buttons-top .header--div-icon {
     display: grid;
     place-items: center;
 
-    position: absolute;
-    z-index: 1000;
-
     width: 65px;
     height: 65px;
-    margin-left: 5px;
-    margin-top: 0px;
     border-radius: 100%;
 
     background-color: transparent;
 }
 
-.header--div-icon img {
-    z-index: 1000;
+.header--container-buttons-top img {
     width: 38px;
 }
 
-.header--icons-hover:hover {
+/* Buttons Container - Top */
+
+
+
+
+
+
+
+
+/* Hover */
+/* .header--icons-hover:hover {
     margin-top: -1px;
 
     width: 75px;
@@ -82,4 +109,4 @@
 
 .header:has(.header--div-icon:hover) .header--div-icon img {
     width: 45px;
-}
+} */

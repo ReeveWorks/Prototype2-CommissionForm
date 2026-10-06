@@ -22,10 +22,18 @@ function Header() {
   return (
     <div className='header'>
       <div className='header--a'></div>
+
+      <div className='header--container-buttons-bottom'>
+        <div className='header--div-icon'></div>
+        <div className='header--div-icon'></div>
+      </div>
+
       <div className='header--b'></div>
-      <div className='header--c'></div>
-      <div className='header--div-icon header--icons-hover'>
-        <img className=' txt-unselectable' src={theme.icon} alt="Theme Icon" onClick={() => dispatch(toggleTheme())} />
+
+      <div className='header--container-buttons-top'>
+        <div className='header--div-icon header--icons-hover'>
+          <img className='txt-unselectable' src={theme.icon} alt="Theme Icon" onClick={() => dispatch(toggleTheme())} />
+        </div>
       </div>
     </div>
   )
