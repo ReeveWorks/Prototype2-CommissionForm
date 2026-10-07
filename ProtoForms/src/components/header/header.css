@@ -4,8 +4,8 @@
 
     display: flex;
     position: sticky;
-    /* align-items: center;
-    justify-content: center; */
+    /* align-items: center; */
+    justify-content: center;
 }
 
 .header--a {
@@ -40,6 +40,8 @@
 
     margin-left: 15px;
     margin-top: 0px;
+
+    width: 1000px;
 }
 
 .header--container-buttons-bottom .header--div-icon {
@@ -64,6 +66,8 @@
 
     margin-left: 15px;
     margin-top: 0px;
+    
+    width: 1000px;
 }
 
 .header--container-buttons-top .header--div-icon {

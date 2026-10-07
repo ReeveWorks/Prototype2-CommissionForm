@@ -31,7 +31,7 @@ function Header() {
       <div className='header--b'></div>
 
       <div className='header--container-buttons-top'>
-        <div className='header--div-icon header--icons-hover'>
+        <div className='header--div-icon'>
           <img className='txt-unselectable' src={theme.icon} alt="Theme Icon" onClick={() => dispatch(toggleTheme())} />
         </div>
       </div>
