@@ -88,8 +88,17 @@
 /* Buttons Container - Top */
 
 
+/* Media Queries */
+@media (max-width: 1000px) {
+  .header--container-buttons-bottom {
+    width: 100%;
+  }
+  .header--container-buttons-top {
+    width: 100%;
+  }
+}
 
-
+/* Media Queries */
 
 
 
