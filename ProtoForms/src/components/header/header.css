@@ -101,25 +101,20 @@
 /* Media Queries */
 
 
-
-
 /* Hover */
-/* .header--icons-hover:hover {
-    margin-top: -1px;
-
-    width: 75px;
-    height: 75px;
-}
-
-.header:has(.header--div-icon:hover) .header--b {
-    margin-top : -1px;
-
-    width: 75px;
-    height: 75px;
+.header:has(#btn-theme:hover) #btn-theme-- {
+    margin-top : -2px;
+    width: 80px;
+    height: 80px;
 
     border: 5px solid var(--color-primary);
 }
-
-.header:has(.header--div-icon:hover) .header--div-icon img {
-    width: 45px;
-} */
+#btn-theme:hover {
+    margin-top : -2px;
+    width: 80px;
+    height: 80px;
+}
+#btn-theme:hover img {
+    width: 50px;
+}
+/* Hover */

@@ -24,14 +24,14 @@ function Header() {
       <div className='header--a'></div>
 
       <div className='header--container-buttons-bottom'>
-        <div className='header--div-icon'></div>
+        <div id="btn-theme--" className='header--div-icon'></div>
         <div className='header--div-icon'></div>
       </div>
 
       <div className='header--b'></div>
 
       <div className='header--container-buttons-top'>
-        <div className='header--div-icon'>
+        <div id="btn-theme" className='header--div-icon'>
           <img className='txt-unselectable' src={theme.icon} alt="Theme Icon" onClick={() => dispatch(toggleTheme())} />
         </div>
       </div>
