@@ -25,7 +25,7 @@ function Header() {
 
       <div className='header--container-buttons-bottom'>
         <div id="btn-theme--" className='header--div-icon'></div>
-        <div className='header--div-icon'></div>
+        <div className='header--div-icon item-hide'></div>
       </div>
 
       <div className='header--b'></div>
