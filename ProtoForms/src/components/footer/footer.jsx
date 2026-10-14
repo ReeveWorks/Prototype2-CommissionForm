@@ -32,7 +32,7 @@ function Footer() {
         {footerContent()}
       </div>
 
-      <div className={`footer footer--bottom`}>
+      <div className={`footer footer--bottom ${isAtTop ? 'item-hide' : ''}`}>
         {footerContent()}
       </div>
     </>
