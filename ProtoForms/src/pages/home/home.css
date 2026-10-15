@@ -1,3 +1,21 @@
-.home{
+.home {
+    position: absolute;
     width: 1000px;
+    height: 100%;
+}
+
+.home--backdrop {
+    background-color: var(--color-bg-main);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.home--content {
+    position: absolute;
+    z-index: 100;
+    color: var(--color-primary);
+    padding-top: 45px;
 }
