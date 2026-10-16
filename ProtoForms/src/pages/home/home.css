@@ -19,3 +19,13 @@
     color: var(--color-primary);
     padding-top: 45px;
 }
+
+
+/* Media Queries */
+@media (max-width: 1000px) {
+  .home {
+    width: 100%;
+  }
+}
+
+/* Media Queries */
