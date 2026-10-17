@@ -11,13 +11,18 @@
     left: 0;
     right: 0;
     bottom: 0;
+
+    opacity: 70%;
 }
 
 .home--content {
     position: absolute;
     z-index: 100;
     color: var(--color-primary);
+
     padding-top: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 

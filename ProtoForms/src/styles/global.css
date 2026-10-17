@@ -11,8 +11,9 @@
 /* Morning Mode */
 :root, html.morning {
   --color-primary: rgba(56, 26, 1);
-  --color-secondary: rgba(255, 239, 204);
   --color-bg-main: rgb(255, 243, 217);
+
+  --color-secondary: rgba(255, 239, 204);
   --color-bg-secondary: rgb(73, 34, 2);
   --color-accent: rgb(255, 102, 0);
 }
@@ -20,8 +21,9 @@
 /* Night Mode */
 html.night {
   --color-primary: rgb(255, 255, 255);
-  --color-secondary: rgba(50, 37, 97);
   --color-bg-main: rgb(32, 35, 49);
+  
+  --color-secondary: rgba(50, 37, 97);
   --color-bg-secondary: rgb(221, 214, 255);
   --color-accent: rgb(141, 92, 255);
 }
