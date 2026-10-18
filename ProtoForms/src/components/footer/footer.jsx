@@ -21,7 +21,7 @@ function Footer() {
   function footerContent() {
     return (
       <div>
-        Footer Test
+        ©2026 ProtoForm v0.1
       </div>
     );
   }

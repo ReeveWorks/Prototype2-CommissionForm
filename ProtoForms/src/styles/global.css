@@ -10,8 +10,9 @@
 
 /* Morning Mode */
 :root, html.morning {
-  --color-primary: rgba(56, 26, 1);
+  --color-primary: #381a01;
   --color-bg-main: rgb(255, 243, 217);
+  --background-main: url('../assets/bg_temp_1.png');
 
   --color-secondary: rgba(255, 239, 204);
   --color-bg-secondary: rgb(73, 34, 2);
@@ -22,6 +23,7 @@
 html.night {
   --color-primary: rgb(255, 255, 255);
   --color-bg-main: rgb(32, 35, 49);
+  --background-main: url('../assets/bg_temp_0.png');
   
   --color-secondary: rgba(50, 37, 97);
   --color-bg-secondary: rgb(221, 214, 255);

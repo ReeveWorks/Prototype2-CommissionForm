@@ -2,6 +2,11 @@
     position: absolute;
     width: 1000px;
     height: 100%;
+    
+    backdrop-filter: blur(0.85px);
+
+    border-left: 2px solid var(--color-primary);
+    border-right: 2px solid var(--color-primary);
 }
 
 .home--backdrop {
@@ -12,7 +17,7 @@
     right: 0;
     bottom: 0;
 
-    opacity: 70%;
+    opacity: 80%;
 }
 
 .home--content {

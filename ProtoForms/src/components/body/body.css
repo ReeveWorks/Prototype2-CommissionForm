@@ -3,9 +3,11 @@
     width: 100%;
     min-height: 100dvh;
 
-    background-image: url('../../assets/pattern0.png');
-    background-size: 15cm 8.44cm;
+    background-image: var(--background-main);
+    /* background-size: 15cm 8.44cm; */
+    background-size: 650px;
     background-repeat: repeat;
+    background-position: center; 
 
     align-items: center;
     display: flex;
