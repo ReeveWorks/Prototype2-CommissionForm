@@ -21,7 +21,7 @@ function Footer() {
   function footerContent() {
     return (
       <div>
-        ©2026 ProtoForm v0.1
+        ©2026 ProtoForm v0.2 | This is a prototype. All rights reserved.
       </div>
     );
   }
