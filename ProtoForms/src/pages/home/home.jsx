@@ -4,6 +4,9 @@ import './home.css'
 /* functional component */
 import { useEffect, useState } from 'react'
 
+/* Modals */
+import ListT from '../../modals/template/list/list_temp'
+
 function Home() {
 
   return (
@@ -12,8 +15,8 @@ function Home() {
       <div className='home--content'>
         <h1>Welcome to ProtoForms</h1>
         <br></br>
-        <p>ProtoForms is a web application that allows users to create and manage forms for various purposes. Whether you need to collect feedback, conduct surveys, or gather information, ProtoForms provides an intuitive interface to design and deploy your forms with ease.</p>
-        <p>Get started by creating your first form and explore the features that ProtoForms has to offer!</p>
+        <br></br>
+        <ListT />
       </div>
     </div>
   )

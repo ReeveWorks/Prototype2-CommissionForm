@@ -7,6 +7,8 @@
 
     border-left: 2px solid var(--color-primary);
     border-right: 2px solid var(--color-primary);
+
+    align-items: center;
 }
 
 .home--backdrop {
@@ -22,12 +24,19 @@
 
 .home--content {
     position: absolute;
+    left: 0;
+    right: 0;
     z-index: 100;
     color: var(--color-primary);
 
     padding-top: 45px;
     padding-left: 30px;
     padding-right: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 
