@@ -7,9 +7,9 @@ import { useEffect, useState } from 'react'
 function ListT() {
 
   return (
-    <div className='listT'>
-        list 1
-        list 2
+    <div className='listT txt-unselectable'>
+        <div className='listT--item'>List Item 1</div>
+        <div className='listT--item'>List Item 2</div>
     </div>
   )
 }
