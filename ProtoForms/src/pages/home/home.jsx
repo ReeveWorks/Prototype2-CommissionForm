@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='home--backdrop'></div>
-      <div className='home--content txt-unselectable'>
+      <div className='home--content'>
         <h1>Welcome to ProtoForms</h1>
         <br></br>
         <br></br>
