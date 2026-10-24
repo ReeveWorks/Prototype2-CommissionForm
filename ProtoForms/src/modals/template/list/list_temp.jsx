@@ -10,7 +10,7 @@ function ListT() {
     <div className='listT'>
         <div className='listT--item'>
           <img src='https://i.imgur.com/b7Z2cnT.jpeg' alt='list item 1' />
-          List Item 1
+          
           </div>
         <div className='listT--item'>
           List Item 2
