@@ -10,6 +10,10 @@ function ListT() {
     <div className='listT'>
       <div className='listT--item'>
         <div className='listT--item-bg'></div>
+        <div className='listT--item-content'>
+          <h3>List Item 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
         <img src='https://i.imgur.com/b7Z2cnT.jpeg' alt='list item 1' />
       </div>
       <div className='listT--item'>
