@@ -33,6 +33,8 @@
     border-bottom-left-radius: 2px;
 }
 
+
+/* Content */
 .listT--item-content {
     position: absolute;
     text-align: left;
@@ -41,3 +43,30 @@
     padding: 5px;
     color: var(--color-bg-main);
 }
+
+.listT--item-content h3 {
+    font-size: 2rem;
+    font-weight: 250;
+    margin-bottom: 5px;
+}
+
+.listT--item-content p {
+    font-size: 1rem;
+    font-weight: 50;
+    line-height: 1.3;
+    text-align: justify;
+}
+/* Content */
+
+
+/* Media Queries */
+@media (max-width: 550px) {
+  .listT--item-content {
+    width: 80%;
+  }
+  .listT--item-bg {
+    width: 80%;
+}
+}
+
+/* Media Queries */
