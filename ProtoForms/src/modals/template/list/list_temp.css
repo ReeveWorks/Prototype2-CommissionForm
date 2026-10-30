@@ -56,17 +56,23 @@
     line-height: 1.3;
     text-align: justify;
 }
+
 /* Content */
 
 
 /* Media Queries */
 @media (max-width: 550px) {
-  .listT--item-content {
-    width: 80%;
-  }
-  .listT--item-bg {
-    width: 80%;
-}
+    .listT--item-content {
+        width: 80%;
+    }
+
+    .listT--item-bg {
+        width: 80%;
+    }
+
+    .listT--item-content p {
+        display: none;
+    }
 }
 
 /* Media Queries */
