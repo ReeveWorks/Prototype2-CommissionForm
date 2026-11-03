@@ -9,7 +9,12 @@ function ListT() {
   return (
     <div className='listT'>
       <div className='listT--item'>
-        
+        <div className='listT--item-img'>
+
+        </div>
+        <div className='.listT--item-title'>
+          
+        </div>
       </div>
       <div className='listT--item'>
         
