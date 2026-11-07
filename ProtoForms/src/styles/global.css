@@ -12,9 +12,9 @@
 :root, html.morning {
   --color-primary: #381a01;
   --color-bg-main: rgb(255, 243, 217);
+  --color-backdrop-main: rgb(245, 251, 255);
   --background-main: url('../assets/bg_temp_1.png');
 
-  --color-secondary: rgba(255, 239, 204);
   --color-bg-secondary: rgb(73, 34, 2);
   --color-accent: rgb(255, 102, 0);
 }
@@ -23,9 +23,9 @@
 html.night {
   --color-primary: rgb(255, 255, 255);
   --color-bg-main: rgb(32, 35, 49);
+  --color-backdrop-main: rgba(50, 37, 97);
   --background-main: url('../assets/bg_temp_0.png');
-  
-  --color-secondary: rgba(50, 37, 97);
+
   --color-bg-secondary: rgb(221, 214, 255);
   --color-accent: rgb(141, 92, 255);
 }
