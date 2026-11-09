@@ -23,8 +23,8 @@
 html.night {
   --color-primary: rgb(255, 255, 255);
   --color-bg-main: rgb(32, 35, 49);
-  --color-backdrop-main: rgba(50, 37, 97);
-  --background-main: url('../assets/bg_temp_0.png');
+  --color-backdrop-main: rgba(91, 94, 111);
+  --background-main: url('../assets/bg_temp_1.png');
 
   --color-bg-secondary: rgb(221, 214, 255);
   --color-accent: rgb(141, 92, 255);
