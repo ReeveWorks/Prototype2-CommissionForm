@@ -15,6 +15,7 @@
     background-color: var(--color-bg-main);
 
     overflow: hidden;
+    cursor: pointer;
 }
 
 /* Content */
@@ -23,6 +24,9 @@
     justify-content: center;
     align-items: center;
     height: 200px;
+
+    background-image: var(--img-sample-01);
+    background-position: center;
 }
 
 .listT--item-img img {
