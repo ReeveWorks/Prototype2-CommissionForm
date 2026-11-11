@@ -19,7 +19,7 @@
 }
 
 /* Content */
-.listT--item-img {  
+.listT--item-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,17 +34,11 @@
 }
 
 .listT--item-title {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
-
-.listT--item-content {
     position: absolute;
-    text-align: left;
+    background-color: var(--color-primary);
 
-    width: 40%;
     color: var(--color-bg-main);
+    width: 100%;
 }
 
 
