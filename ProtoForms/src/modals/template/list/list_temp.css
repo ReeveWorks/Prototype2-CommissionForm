@@ -60,6 +60,19 @@
     align-items: center;
     padding: 0 10px;
 }
+
+.listT--item-content li {
+    Color: var(--color-bg-main);
+    font-size: 1.1rem;
+
+    list-style: none;
+    padding: 1px 0;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Content */
 
 

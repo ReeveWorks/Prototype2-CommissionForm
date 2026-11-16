@@ -22,17 +22,18 @@ function ListT() {
       </div>
 
       <div className='listT--item'>
-        <div className='listT--item-img' style={{ backgroundImage: "url('https://images.hdqwalls.com/wallpapers/anime-girl-headphones-looking-away-4k-ls.jpg')" }}>
-          {/* style={{ backgroundImage: "url('https://images.hdqwalls.com/wallpapers/anime-girl-headphones-looking-away-4k-ls.jpg')" }} */}
-        </div>
-        <div className='listT--item-content txt-unselectable'>
-          <div>
-            Col 1
-          </div>
-          <div>
-            Col 2
-          </div>
-        </div>
+        <div className='listT--item-img' style={{ backgroundImage: "url('https://images.hdqwalls.com/wallpapers/anime-girl-headphones-looking-away-4k-ls.jpg')" }}></div>
+
+        <ol className='listT--item-content'>
+          <li style={{ flex: 5, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+            Title
+          </li>
+          
+          <li style={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+            $10.00
+          </li>
+        </ol>
+
       </div>
 
       <div className='listT--item'>
