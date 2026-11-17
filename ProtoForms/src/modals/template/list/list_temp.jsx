@@ -25,11 +25,11 @@ function ListT() {
         <div className='listT--item-img' style={{ backgroundImage: "url('https://images.hdqwalls.com/wallpapers/anime-girl-headphones-looking-away-4k-ls.jpg')" }}></div>
 
         <ol className='listT--item-content'>
-          <li style={{ flex: 5, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-            Title
+          <li style={{ flex: 5, justifyContent: 'flex-start'}}>
+            Chibi Commission Form with a very long title that will overflow the container and be truncated with an ellipsis at the end...
           </li>
           
-          <li style={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+          <li style={{ flex: 1, justifyContent: 'center', color: 'var(--color-accent)'}}>
             $10.00
           </li>
         </ol>
