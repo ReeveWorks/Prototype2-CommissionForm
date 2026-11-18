@@ -59,6 +59,10 @@
     display: flex;
     align-items: center;
     padding: 0 10px;
+
+    transition: width 0.15s ease-in-out, 
+                height 0.15s ease-in-out,
+                margin-top 0.15s ease-in-out;
 }
 
 .listT--item-content li {
@@ -78,6 +82,16 @@
 
 /* Content */
 
+
+
+.listT--item-content:hover {
+    height: 150px;
+    margin: -150px 0 0 0;
+}
+
+.listT--item-content:hover li {
+    white-space: normal;
+}
 
 
 

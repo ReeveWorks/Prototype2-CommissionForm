@@ -24,7 +24,7 @@
 
 /* Night Mode */
 html.night {
-  --color-primary: rgb(255, 255, 255);
+  --color-primary: rgb(222, 218, 241);
   --color-bg-main: rgb(32, 35, 49);
   --color-backdrop-main: rgba(91, 94, 111);
   --background-main: url('../assets/bg_temp_1.png');
