@@ -26,11 +26,11 @@ function ListT() {
 
         <ol className='listT--item-content'>
           <li style={{ flex: 5, justifyContent: 'flex-start'}}>
-            Chibi Commission Form with a very long title that will overflow the container and be truncated with an ellipsis at the end...
+            Chibi Commission Form with a very long title that will overflow the container and be truncated with an ellipsis at the end.
           </li>
           
           <li style={{ flex: 1, justifyContent: 'center', color: 'var(--color-accent)'}}>
-            $10.00
+            $1,000.00
           </li>
         </ol>
 
