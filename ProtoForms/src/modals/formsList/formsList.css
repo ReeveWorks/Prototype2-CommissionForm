@@ -1,0 +1,61 @@
+.formsList {
+    width: 100%;
+    align-items: center;
+}
+
+.formsList--item {
+    width: 100%;
+    height: 200px;
+
+    padding: 0;
+    margin-bottom: 10px;
+
+    border-radius: 2.5px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-bg-main);
+
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.formsList--image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+    background-image: var(--img-sample-01);
+    background-position: center;
+    background-size: cover;
+}
+.formsList--image img {
+    width: 100%;
+}
+
+.formsList--content{
+    background-color: color-mix(in srgb, var(--color-primary) 90%, transparent);
+    width: 100%;
+    height: 40px;
+    margin: -40px 0 0 0;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+
+    transition: width 0.15s ease-in-out, 
+                height 0.15s ease-in-out,
+                margin-top 0.15s ease-in-out;
+}
+.formsList--content li {
+    Color: var(--color-bg-main);
+    font-size: 1.1rem;
+
+    list-style: none;
+    margin: 0px 5px;
+    line-height: 1.5rem;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

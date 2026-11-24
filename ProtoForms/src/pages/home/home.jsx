@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react'
 
 /* Modals */
 import ListT from '../../modals/template/list/list_temp'
+import FormsList from '../../modals/formsList/formsList'
 
 function Home() {
 
@@ -16,7 +17,10 @@ function Home() {
         <h1>Welcome to ProtoForms</h1>
         <br></br>
         <br></br>
-        <ListT />
+
+        {/* <ListT /> */}
+        <FormsList />
+        
       </div>
     </div>
   )

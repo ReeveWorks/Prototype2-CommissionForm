@@ -28,11 +28,14 @@ const formSlice = createSlice({
     name: 'formDatabase',
     initialState,
     reducers: {
-        functionSample: (state, action) => {
-            // Example of how to update the state
+        updateForm: (state, action) => {
+            // code here to update the form data based on the action payload
+        },
+        addForm: (state, action) => {
+            // code here to add a new form to the state
         }
     }
 });
 
-export const { functionSample } = formSlice.actions;
+export const { updateForm, addForm } = formSlice.actions;
 export default formSlice.reducer;
