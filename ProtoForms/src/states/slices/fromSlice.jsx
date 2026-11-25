@@ -14,7 +14,7 @@ const initialState = {
             },
             {
                 id: '02',
-                title: 'Sample Title 2',
+                title: 'A Commission Form with a very long title that will overflow the container and be truncated with an ellipsis at the end.',
                 max_price: '50.00',
                 min_price: '10.00',
                 currency: 'USD',

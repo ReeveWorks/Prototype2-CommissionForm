@@ -59,3 +59,13 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.formsList--content:hover {
+    height: 150px;
+    margin: -150px 0 0 0;
+}
+
+.formsList--content:hover li {
+    white-space: normal;
+    text-align: justify;
+    text-align-last: center;
+}

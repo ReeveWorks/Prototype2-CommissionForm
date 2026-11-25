@@ -17,7 +17,7 @@ function formsList() {
                 <div className='formsList--image' style={{ backgroundImage: `url(${formData.img_url})` }}></div>
 
                 <ol className='formsList--content'>
-                    <li style={{ flex: 5, justifyContent: 'flex-start' }}>
+                    <li style={{ flex: 4, justifyContent: 'flex-start' }}>
                         {formData.title}
                     </li>
 
