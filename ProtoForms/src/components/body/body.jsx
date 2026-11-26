@@ -1,6 +1,9 @@
 //styles
 import './body.css'
+
+//pages
 import Home from '../../pages/home/home.jsx'
+import Form from '../../pages/form/form.jsx'
 
 //components
 
@@ -14,7 +17,8 @@ function body() {
   return (
     <>
       <div className='body'>
-        <Home />
+        {/* <Home /> */}
+        <Form />
       </div>
     </>
   )
