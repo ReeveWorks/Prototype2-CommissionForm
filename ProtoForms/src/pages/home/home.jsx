@@ -11,8 +11,8 @@ import FormsList from '../../modals/formsList/formsList'
 function Home() {
 
   return (
-    <div className='home'>
-      <div className='home--backdrop'></div>
+    <div className='home theme--body-01'>
+      <div className='theme--backdrop-01'></div>
       <div className='home--content'>
         <h1>Welcome to ProtoForms</h1>
         <br></br>
